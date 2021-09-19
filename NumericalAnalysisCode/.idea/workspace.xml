@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2602cfda-7a5a-4029-96fc-34ca8bcbc45e" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="2602cfda-7a5a-4029-96fc-34ca8bcbc45e" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/SolveEquationOneVarible/bisect_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/SolveEquationOneVarible/bisect_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolveEquationOneVarible/fpi_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/SolveEquationOneVarible/fpi_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolveEquationOneVarible/newton_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/SolveEquationOneVarible/newton_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolveEquationOneVarible/secant_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/SolveEquationOneVarible/secant_method.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

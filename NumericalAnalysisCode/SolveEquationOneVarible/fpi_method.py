@@ -14,24 +14,21 @@ def fpi(function, r, tol, n):
     return x
 
 
-def test_function1(x):  # solve x ^ 3 + x - 1 = 0
-    return x ** 3 + x - 1
-
-
-def test_function2(x):  # solve x = 2.8 * x - x ^ 2
-    return 2.8 * x - x * x
-
-
-def test_function3(x):  # solve x = cos(x)
-    return np.cos(x)
-
-
 def test():
-    x = 1
-    print(fpi(test_function1, x, 0.001, 100))
-    print(fpi(test_function2, x, 0.001, 100))
-    print(fpi(test_function3, x, 0.001, 100))
-    print(fpi(test_function3, x, 0.001, 10))
+    def test_function1(x):  # solve x ^ 3 + x - 1 = 0
+        return x ** 3 + x - 1
+
+    def test_function2(x):  # solve x = 2.8 * x - x ^ 2
+        return 2.8 * x - x * x
+
+    def test_function3(x):  # solve x = cos(x)
+        return np.cos(x)
+
+    x0 = 1
+    print(fpi(test_function1, x0, 0.001, 100))
+    print(fpi(test_function2, x0, 0.001, 100))
+    print(fpi(test_function3, x0, 0.001, 100))
+    print(fpi(test_function3, x0, 0.001, 10))
 
 
 if __name__ == '__main__':

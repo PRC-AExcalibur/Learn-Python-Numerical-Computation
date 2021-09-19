@@ -16,11 +16,9 @@ def secant(function, r0, r1, tol, n):
     return x1
 
 
-def test_function(x):  # solve x ^ 3 + x - 1 = 0
-    return x ** 3 + x - 1
-
-
 def test():
+    def test_function(x):  # solve x ^ 3 + x - 1 = 0
+        return x ** 3 + x - 1
     print(secant(test_function, 0, 1, 0.001, 1000))
     print(secant(test_function, 0, 1, 0.001, 3))
 

@@ -40,19 +40,16 @@ def bisect_np(function, x_array, tol):
     return y_array
 
 
-def test_function1(x):  # solve x ^ 3 + x - 1 = 0
-    return x ** 3 + x - 1
-
-
-def test_function2(x):  # solve x ^ 2 - 2x + 1 = 0
-    return x * x - 2 * x + 1
-
-
-def test_function3(x):  # solve cos(x) = 0
-    return np.cos(x)
-
-
 def test():
+    def test_function1(x):  # solve x ^ 3 + x - 1 = 0
+        return x ** 3 + x - 1
+
+    def test_function2(x):  # solve x ^ 2 - 2x + 1 = 0
+        return x * x - 2 * x + 1
+
+    def test_function3(x):  # solve cos(x) = 0
+        return np.cos(x)
+
     print(bisect(test_function1, 0, 1, 0.001))
     print(bisect(test_function2, 0, 1, 0.001))
     x_array = np.arange(0, 20, 3)
